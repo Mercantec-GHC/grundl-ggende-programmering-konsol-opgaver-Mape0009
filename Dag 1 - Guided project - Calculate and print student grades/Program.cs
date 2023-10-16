@@ -39,3 +39,8 @@ Console.WriteLine(genSophia);
 Console.WriteLine(genNicolas);
 Console.WriteLine(genZahirah);
 Console.WriteLine(genJeong);
+
+int students = 4;
+double samlGennemsnit = (genSophia+ genNicolas+genZahirah+genJeong) / students;
+Console.WriteLine("");
+Console.WriteLine("Collective Grade Point Average of the class " + samlGennemsnit);
