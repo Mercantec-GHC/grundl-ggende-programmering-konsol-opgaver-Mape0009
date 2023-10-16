@@ -35,10 +35,10 @@ double genNicolas = samlNicolas / currentAssignments;
 double genZahirah = samlZahirah / currentAssignments;
 double genJeong = samlJeong / currentAssignments;
 
-Console.WriteLine(genSophia);
-Console.WriteLine(genNicolas);
-Console.WriteLine(genZahirah);
-Console.WriteLine(genJeong);
+Console.WriteLine("Sophia "+genSophia);
+Console.WriteLine("Nicolas "+genNicolas);
+Console.WriteLine("Zahirah "+genZahirah);
+Console.WriteLine("Jeong "+genJeong);
 
 int students = 4;
 double samlGennemsnit = (genSophia+ genNicolas+genZahirah+genJeong) / students;
