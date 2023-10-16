@@ -24,3 +24,18 @@ int jeong2 = 92;
 int jeong3 = 98;
 int jeong4 = 100;
 int jeong5 = 97;
+
+int samlSophia = sophia1+ sophia2+sophia3+sophia4+sophia5;
+int samlNicolas = nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5;
+int samlZahirah = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5;
+int samlJeong = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
+
+double genSophia = samlSophia / currentAssignments;
+double genNicolas = samlNicolas / currentAssignments;
+double genZahirah = samlZahirah / currentAssignments;
+double genJeong = samlJeong / currentAssignments;
+
+Console.WriteLine(genSophia);
+Console.WriteLine(genNicolas);
+Console.WriteLine(genZahirah);
+Console.WriteLine(genJeong);
