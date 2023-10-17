@@ -25,6 +25,7 @@ internal class Program
     private static void Main(string[] args)
     {
         int examAssignments = 5;
+        int examinees = 4;
 
         string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
 
@@ -42,6 +43,7 @@ internal class Program
         Console.Clear();
         Console.WriteLine("Student\t\tGrade\tLetter Grade\n");
 
+        decimal classScore = 0;
         /*
         The outer foreach loop is used to:
         - iterate through student names 
@@ -88,6 +90,7 @@ internal class Program
             }
 
             currentStudentGrade = (decimal)sumAssignmentScores / examAssignments;
+            classScore += currentStudentGrade;
 
             if (currentStudentGrade >= 97)
                 currentStudentLetterGrade = "A+";
@@ -133,6 +136,8 @@ internal class Program
 
             Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
         }
+        decimal classAverage = classScore / examinees;
+        Console.WriteLine($"\nClass Average: {classAverage}");
 
         // required for running in VS Code (keeps the Output windows open to view results)
         Console.WriteLine("\n\rPress the Enter key to continue");
