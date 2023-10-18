@@ -36,7 +36,7 @@ for (int i = 0; i < maxPets; i++)
             animalNickname = "lola";
             break;
 
-        case 1:
+        case 1: 
             animalSpecies = "dog";
             animalID = "d2";
             animalAge = "9";
